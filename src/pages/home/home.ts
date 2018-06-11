@@ -6,9 +6,14 @@ import { NavController } from 'ionic-angular';
   templateUrl: 'home.html'
 })
 export class HomePage {
-
+  datos:any=[];
   constructor(public navCtrl: NavController) {
-
+    this.datos = [
+      {'adelante': 'hola', 'atras':'adios'},
+      {'adelante': 'hola', 'atras':'adios'},
+      {'adelante': 'hola', 'atras':'adios'},
+      {'adelante': 'hola', 'atras':'adios'},
+    ];
   }
 
 }
